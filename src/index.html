@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BRIGHTNER</title>
+    <link rel="stylesheet" href="index.css">
+    <script  src="brightness.js"></script>
+  </head> 
+  <body>
+    <svg width=auto height=50>
+      <rect width="900" height="50" style="fill:rgb(0, 0, 0);stroke:none" />
+    </svg>
+    <button type="button" class="X" onclick="closeWin()">X</button>
+    <h1 class="mainheading">SLIDE TO CHANGE BRIGHTNESS</h1>
+    <p class="second">Drag the slider to change brightness</p>
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="" class="slider" id="myRange" onChange="hello()">
+    </div>
+    <h1 class="brightnessIndicator" id="bi" >
+      00
+    </h1>
+
+  
+
+    
+  </body>
+</html>
